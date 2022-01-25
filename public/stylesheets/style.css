@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: url("../images/betonhofi.jpg") no-repeat center center fixed #EEEEEE;
+    background-size: cover;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    color: #1A1A1A;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+p {
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: #FFFB01;
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #F3100A;
+    text-decoration: none;
+}
+
+ol {
+    padding-left: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: inside decimal-leading-zero;
+ }
+
+.wrapper {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.site-logo {
+    display: block;
+    text-align: center;
+}
+
+.site-logo .logo {
+    max-width: 250px;
+}
+
+.container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.content {
+    box-shadow: 5px 5px 0 rgba(26, 26, 26, .8);
+    border: 1px solid rgba(26, 26, 26, .8);
+    background-color: rgba(255, 255, 255, .8);
+    padding: 35px;
+}
+
+.content .site-title {
+    text-align: center;
+    font-size: 4em;
+}
+
+.content .site-subtitle {
+    text-align: center;
+    display: block;
+    margin-bottom: 40px;
+    border-top: 1px solid #1A1A1A;
+    border-bottom: 1px solid #1A1A1A;
+}
+
+.content .site-subtitle span {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin: 15px auto;
+    display: inline-block;
+    color: #1A1A1A;
+}
+
+.intro {
+    display: block;
+    padding: 20px 0;
+}
+
+.intro img {
+    margin: auto;
+    display: block;
+    box-shadow: 5px 5px 0 rgba(26, 26, 26, .8);
+    border: 1px solid rgba(26, 26, 26, .8);
+}
+
+.intro .intro-title {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.intro .published {
+    float: right;
+}
+
+.navbar {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    padding: 25px 0;
+}
+
+.navbar .navbar-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-links .navbar-link a {
+    padding: 10px 25px;
+    text-shadow: 2px 2px #1A1A1A;
+}
+
+.readmore {
+    display: block;
+    width: 100%;
+    text-align: right;
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.readmore a {
+    padding: 5px 10px;
+    display: inline;
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #F3100A;
+    border: 2px solid #F3100A;
+}
+
+.readmore a:hover,
+.readmore a:focus,
+.readmore a:active {
+    color: #FFFFFF;
+    background-color: #F3100A;
+    border: 2px solid #F3100A;
+}
+
+.article-image {
+    float: right;
+    margin: 5px;
+    max-width: 400px;
+}
+
+.section-title {
+    font-size: 1.6em;
+    border-bottom: 2px dotted #1A1A1A;
+}
+
+.album {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 25px 0;
+}
+
+.album .album-cover img {
+    max-width: 400px;
+}
+
+.album .album-title {
+    margin-bottom: 20px;
+}
+
+.album .tracklist {
+    padding: 0 25px;
+    text-transform: uppercase;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.gallery .gallery-column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+
+.gallery .gallery-image {
+    margin-top: 5px;
+    width: 100%;
+    flex: 0 0 auto;
+}
+  
